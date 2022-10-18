@@ -41,3 +41,14 @@ document.querySelector("body > header > div > a").appendChild(newTag)
 ```
 
 ![After](./q112.png)
+
+### Challenge 
+
+- Change the background colour of the button to blue.
+
+![Before](./q121.png)
+```js
+document.querySelector("body > div.application-main > div > aside > div > loading-context > div > div.mb-3.Details.js-repos-container.mt-5 > div > h2 > a").style.backgroundColor = 'blue'
+
+```
+![After](./q122.png)
