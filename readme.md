@@ -26,3 +26,19 @@ parent.appendChild(newSection)
 document.querySelector(".desc").style.color = 'orange'
 ```
 ![Before](./q202.png)
+
+### Challenge
+- Change the logo Image
+
+![Before](./q111.png)
+```js
+let newTag = document.createElement('img')
+newTag.src = 'https://ineuron.ai/images/ineuron-logo.png'
+newTag.width = '100'
+newTag.height = '30'
+document.querySelector("body > header > div > a").childNodes[0].remove()
+//append also works the same as appendChild
+document.querySelector("body > header > div > a").appendChild(newTag)
+```
+
+![After](./q112.png)
