@@ -37,7 +37,6 @@ newTag.src = 'https://ineuron.ai/images/ineuron-logo.png'
 newTag.width = '100'
 newTag.height = '30'
 document.querySelector("body > header > div > a").childNodes[0].remove()
-//append also works the same as appendChild
 document.querySelector("body > header > div > a").appendChild(newTag)
 ```
 
