@@ -52,3 +52,19 @@ document.querySelector("body > div.application-main > div > aside > div > loadin
 
 ```
 ![After](./q122.png)
+
+### Challenge
+
+- Change Background
+
+![Before](./q101.png)
+
+```js
+let text = document.querySelector(".login-btn-text")
+function changeColor() {
+text.style.backgroundColor = 'red'
+}
+text.addEventListener('mouseover', changeColor)
+```
+
+![After](./q102.png)
