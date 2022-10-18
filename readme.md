@@ -16,3 +16,13 @@ newSection.appendChild(newHeading)
 parent.appendChild(newSection)
 ```
 ![After](./q32.png)
+
+### Challenge
+
+-  Change the description colour black to orange
+
+![Before](./q201.png)
+```js
+document.querySelector(".desc").style.color = 'orange'
+```
+![Before](./q202.png)
