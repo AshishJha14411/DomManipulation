@@ -55,7 +55,7 @@ document.querySelector("body > div.application-main > div > aside > div > loadin
 
 ### Challenge
 
-- Change Background
+- Change Background Color on Hover to Red
 
 ![Before](./q101.png)
 
