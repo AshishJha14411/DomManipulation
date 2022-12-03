@@ -68,3 +68,23 @@ text.addEventListener('mouseover', changeColor)
 ```
 
 ![After](./q102.png)
+
+
+- Change Title 
+
+![Before](./q161.png)
+
+```js
+document.querySelector('.section-title_title__VEDfK').innerText = 'Start with Sractch'
+```
+
+![After](./q162.png)
+
+
+
+![Before](./q141.png)
+
+```js
+document.querySelector("div.HotDealsAll__Heading__2fIbe").style.fontSize = '80px'
+```
+![After](./q142.png)
