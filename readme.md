@@ -1,5 +1,8 @@
 # DOM Challenges 
 
+The CodeFile.js contains a total of 20 dom manipulation codes. Here are the 7 out of the 20 which were most fun
+
+
 ### Challenge
 - Get Element By Id, Create Element, Create Text Node, Append Child
 ![Before](./q31.png)
